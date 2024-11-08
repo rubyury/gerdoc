@@ -9,6 +9,10 @@
         <title>PRINCIPAL</title>
     </head>
     <body>
+        
+        <jsp:include page="menu.jsp"  >
+            <jsp:param name="param1" value="index" />
+        </jsp:include>
 
         <h1>PRINCIPAL</h1>
         
